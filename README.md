@@ -13,7 +13,9 @@ MongoDB Integration: Stores application data in a MongoDB database.
 User-Friendly Interface: Provides a clean, modern, and easy-to-use experience.
 Logout Functionality: Allows authenticated users to securely sign out.
 
+
 Technologies Used
+
 Next.js — React framework for building web applications.
 React — For building interactive user interfaces.
 TypeScript — For type-safe and maintainable code.
@@ -23,4 +25,15 @@ MongoDB — For database management.
 Google OAuth — For Google authentication.
 Git & GitHub — For version control and project hosting.
 Vercel — For deployment.
+
+
+Responsive Design
+
+BazarDor is designed to adapt to different screen sizes, providing a consistent user experience across:
+
+Mobile devices
+Tablets
+Desktop and laptop screens
+
+
 
