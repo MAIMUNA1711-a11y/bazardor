@@ -35,5 +35,17 @@ Mobile devices
 Tablets
 Desktop and laptop screens
 
+Deployment
+
+BazarDor can be deployed on Vercel.
+
+Before deployment:
+
+Configure all required environment variables in the deployment platform.
+Update Google and GitHub OAuth callback URLs for the production domain.
+Verify that MongoDB is accessible from the deployed application.
+Test authentication and navigation after deployment.
+Ensure the application builds and runs without errors.
+
 
 
