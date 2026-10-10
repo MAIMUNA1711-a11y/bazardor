@@ -27,14 +27,6 @@ Git & GitHub — For version control and project hosting.
 Vercel — For deployment.
 
 
-Responsive Design
-
-BazarDor is designed to adapt to different screen sizes, providing a consistent user experience across:
-
-Mobile devices
-Tablets
-Desktop and laptop screens
-
 Deployment
 
 BazarDor can be deployed on Vercel.
