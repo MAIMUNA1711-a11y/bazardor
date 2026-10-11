@@ -1,4 +1,5 @@
 
+
 import { betterAuth } from "better-auth";
 import { mongodbAdapter } from "better-auth/adapters/mongodb";
 import { db } from "./mongodb";
@@ -11,12 +12,11 @@ export const auth = betterAuth({
     autoSignIn: false,
   },
 
-  account: {
-    accountLinking: {
-      enabled: true,
-      trustedProviders: ["github"],
-    },
+ account: {
+  accountLinking: {
+    enabled: false,
   },
+},
 
   socialProviders: {
     google: {
