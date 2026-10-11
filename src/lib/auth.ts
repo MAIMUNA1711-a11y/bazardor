@@ -1,10 +1,10 @@
-
-
 import { betterAuth } from "better-auth";
 import { mongodbAdapter } from "better-auth/adapters/mongodb";
 import { db } from "./mongodb";
 
 export const auth = betterAuth({
+  baseURL: "https://bazardor-mim-57e8.vercel.app",
+
   database: mongodbAdapter(db),
 
   emailAndPassword: {
@@ -12,11 +12,11 @@ export const auth = betterAuth({
     autoSignIn: false,
   },
 
- account: {
-  accountLinking: {
-    enabled: false,
+  account: {
+    accountLinking: {
+      enabled: false,
+    },
   },
-},
 
   socialProviders: {
     google: {
